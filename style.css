@@ -22,20 +22,42 @@ section {
     box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
     background: #FFFFFF;
     padding: 60px 0 70px;
+    display: flex;
 }
 
 .image-card {
     border-right: 2px solid rgba(20, 20, 20, 0.15);
-    width: 540px;
+    min-width: 540px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-image {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
 
 .preview {
     width: 80px;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .preview.selected {
     box-shadow: 8px 8px 16px 0px rgba(81, 91, 117, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-content {
