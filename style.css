@@ -1,11 +1,9 @@
-/*обнуление стилей*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*общие стили*/
 body {
     min-width: 375px;
 }
